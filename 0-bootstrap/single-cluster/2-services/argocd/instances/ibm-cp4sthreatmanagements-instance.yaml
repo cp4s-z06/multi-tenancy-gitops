@@ -27,14 +27,23 @@ spec:
         value: threatmgmt
       - name: spec.acceptLicense
         value: "true"
+      - name: spec.basicDeploymentConfiguration.domain
+        value: z06.cloudpaksecurity.com
+        value: z06.cloudpaksecurity.com
+        value: z06.cloudpaksecurity.com
+      - name: spec.basicDeploymentConfiguration.domain
+        value: z06.cloudpaksecurity.com
+        value: z06.cloudpaksecurity.com
+      - name: spec.basicDeploymentConfiguration.domain
+        value: z06.cloudpaksecurity.com
       - name: spec.basicDeploymentConfiguration.adminUser
         value: adminUser
       - name: spec.basicDeploymentConfiguration.storageClass
-        value: managed-nfs-storage
+        value: ibmc-vpc-block-10iops-tier
       - name: spec.extendedDeploymentConfiguration.airgapInstall
         value: "false"
       - name: spec.extendedDeploymentConfiguration.backupStorageClass
-        value: managed-nfs-storage
+        value: ibmc-vpc-block-10iops-tier
       - name: spec.extendedDeploymentConfiguration.backupStorageSize
         value: ''
       - name: spec.extendedDeploymentConfiguration.imagePullPolicy
